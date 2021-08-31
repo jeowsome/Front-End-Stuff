@@ -1,0 +1,43 @@
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+
+    background: beige;
+}
+
+#title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    background: navajowhite;
+    border-radius: 10px;
+}
+
+#add-task-button{
+    margin: 5px;
+}
+
+#to-do-div{
+    margin: 5px;
+}
+#input-task{
+    width: 85%;
+    border: none;
+    border-bottom: 2px solid peachpuff;
+    background: inherit;
+}
+.delete-btn{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#task-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    border-radius: 10px;
+    background: #A7BFE8;
+}
